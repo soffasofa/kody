@@ -1,0 +1,13 @@
+<addons>
+<addon id="plugin.video.stream-cinema" name="Stream Cinema (Martin backup)" version="1.0.0" provider-name="Martin">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Záložný doplnok Stream Cinema</summary>
+        <description lang="en">Používateľský repozitár pre Kodi s doplnkom Stream Cinema.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
